@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="100.0" maxWidth="300.0" minHeight="100.0" minWidth="300.0" prefHeight="100.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clock.controllers.ClockCountdownController">
+   <children>
+      <AnchorPane prefHeight="20.0" prefWidth="300.0" style="-fx-background-color: PINK;" />
+      <AnchorPane layoutX="20.0" layoutY="10.0">
+         <children>
+            <HBox>
+               <children>
+                  <Label fx:id="label_hour" text="00">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label text=":">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_minute" text="00">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label text=":">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="label_second" text="00">
+                     <font>
+                        <Font size="70.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
