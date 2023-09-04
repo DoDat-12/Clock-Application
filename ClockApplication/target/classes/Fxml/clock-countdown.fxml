@@ -7,8 +7,8 @@
 
 <AnchorPane maxHeight="100.0" maxWidth="300.0" minHeight="100.0" minWidth="300.0" prefHeight="100.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clock.controllers.ClockCountdownController">
    <children>
-      <AnchorPane prefHeight="20.0" prefWidth="300.0" style="-fx-background-color: PINK;" />
-      <AnchorPane layoutX="20.0" layoutY="10.0">
+      <AnchorPane prefHeight="30.0" prefWidth="300.0" style="-fx-background-color: PINK;" />
+      <AnchorPane layoutX="20.0" layoutY="15.0">
          <children>
             <HBox>
                <children>
