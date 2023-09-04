@@ -1,5 +1,4 @@
 package com.example.clock.services;
-
 import javafx.animation.KeyFrame;
 import javafx.animation.Timeline;
 import javafx.scene.control.Label;
@@ -9,19 +8,19 @@ public class CountdownTimer {
     private final Label label_hour;
     private final Label label_minute;
     private final Label label_second;
-
     private int hour;
     private int minute;
     private int second;
-
     private Timeline timeline;
 
+    // Constructor
     public CountdownTimer(Label label_hour, Label label_minute, Label label_second) {
         this.label_hour = label_hour;
         this.label_minute = label_minute;
         this.label_second = label_second;
     }
 
+    // Start Counting
     public void CountingDown(int hour, int minute, int second) {
         this.hour = hour;
         this.minute = minute;
@@ -58,6 +57,9 @@ public class CountdownTimer {
         timeline.play();
     }
 
+    // TODO: Counting session
+
+    // Format Number
     private String formatNumber(int number) {
         if (number >= 10)
             return String.valueOf(number);
